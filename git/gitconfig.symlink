@@ -1,9 +1,8 @@
 [user]
-    name = Lars Kappert
-    email = lars@webpro.nl
+	name = first-developer
+	email = lioninho11@hotmail.fr
 
 [github]
-    user = webpro
 
 [core]
     excludesfile = ~/.gitignore_global
