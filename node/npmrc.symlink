@@ -1,0 +1,4 @@
+# Indicate to npm where to store your globally installed package
+prefix=${HOME}/.npm-packages
+
+
