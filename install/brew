@@ -1,0 +1,17 @@
+#! /usr/bin/env zsh 
+
+# -------------------------------------------------
+# Filename:    brew.sh
+# Description: Script to install brew  
+# Maintainer:  @fdsolutions <https://github.com/fdsolutions>
+# -------------------------------------------------
+
+# Downloading and installing brew 
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Setup more repos for brew
+
+brew tap caskroom/cask
+brew tap homebrew/versions
+brew tap caskroom/versions

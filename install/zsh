@@ -1,0 +1,29 @@
+#! /usr/bin/env sh 
+
+# -------------------------------------------------
+# Filename:    zsh
+# Description: Installing zsh and oh-my-zsh 
+# Maintainer:  @fdsolutions <https://github.com/fdsolutions>
+# -------------------------------------------------
+
+source "${DOTFILES_DIR}/zsh/default.vars"
+
+# Installing  ZSH 
+
+if [[ -f /usr/local/bin/zsh ]]; then 
+	echo "ZSH is already installed" 
+else 
+	brew install zsh 
+fi;
+
+# Installing OH-MY-ZSH 
+
+if [[ -d $HOME/.oh-my-zsh ]]; then 
+	echo "OH-MY-ZSH is already installed" 
+else 
+	curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+fi;
+
+
+
+
