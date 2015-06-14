@@ -1,0 +1,3 @@
+[submodule "includes/libs/bashful"]
+	path = includes/libs/bashful
+	url = https://github.com/fdsolutions/bashful
